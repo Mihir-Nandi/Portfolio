@@ -1,18 +1,18 @@
 const data = {
-  avatar: "images/avatar.jpg",
+  avatar: "images/pp.jpg",
   name: "Mihir Nandi",
   titleString: "Mihir's Portfolio",
   about: `Focused and adaptable, I bring expertise in Android development (Flutter) and hardware, combined with strong problem-solving and communication skills, to contribute effectively in public sector roles.`,
   descriptors:
     "Aspiring Computer Engineer | Android Developer | Tech Enthusiast",
   email: "msnandi370122@kkwagh.edu.in",
-  github: "github.com/Mihir-Nandi",
-  linkedin: "https://www.linkedin.com/in/ishan-jawale-1a889a2b8/",
-  resume: "Ishan_Resume.pdf",
+  github: "https://github.com/Mihir-Nandi",
+  linkedin: "https://www.linkedin.com/in/mihirnandi/",
+  resume: "Resume.pdf",
   skills: [
     {
       category: "Programming Languages",
-      skills: ["C++", "C", "Python", "SQL", "Java", "Flutter", "Dart", "Django"],
+      skills: ["C++", "C", "Python", "PostgreSQL", "Java", "Flutter", "Dart", "Django REST"],
     },
     {
       category: "Tools & Platforms",
@@ -25,7 +25,7 @@ const data = {
       description:
         "Designed an AI-driven image analysis for classroom monitoring and quality assessment in skill development training programs.",
       technologies: ["Python"],
-      githubLink: "https://github.com/IshanJawale/daily-expense-calculator",
+      // githubLink: "https://github.com/IshanJawale/daily-expense-calculator",
       images: [
       ],
     },
@@ -34,7 +34,7 @@ const data = {
       description:
         "Developed an app to suggest nearby plantation spots, track planted trees, and connect users with NGOs, promoting environmental action through real-time data and intuitive design.",
       technologies: ["Flutter", "Dart", "Django"],
-      githubLink: "https://github.com/IshanJawale/daily-expense-calculator",
+      githubLink: "https://github.com/Mihir-Nandi/PixelStock",
       images: [
       ],
     },
@@ -43,7 +43,7 @@ const data = {
       description:
         "This code implements an IoT-enabled smart home automation system using an ESP32 microcontroller, connected to the Blynk platform for remote monitoring and control. It manages entry and exit triggers through sensor inputs to count the number of people in a space, updating the count in real-time on the Blynk app. The system also controls a bulb based on occupancy, ensuring energy efficiency by turning the bulb on when people are present and off when the area is empty.",
       technologies: ["Python", "CSV Data", "Scikit-learn"],
-      githubLink: "https://github.com/IshanJawale/smart-home-automation",
+      githubLink: "https://github.com/Mihir-Nandi/Smart-Home-Automation",
       images: [
         "images/projects/SmartHomeAutomation/img1.png",
         "images/projects/SmartHomeAutomation/img2.png",
@@ -54,7 +54,7 @@ const data = {
       description:
         "Developed a Daily Expense Calculator using Tkinter, enabling users to effortlessly track and manage their daily expenditures, visualize spending patterns, and make informed financial decisions through a user-friendly graphical interface.",
       technologies: ["Python", "TKinter"],
-      githubLink: "https://github.com/IshanJawale/daily-expense-calculator",
+      githubLink: "https://github.com/Mihir-Nandi/Daily-Expense-Calculator",
       images: [
         "images/projects/DailyExpenseCalculator/img1.png",
         "images/projects/DailyExpenseCalculator/img2.png",
@@ -73,7 +73,7 @@ const data = {
         "Google Sheets",
         "Google Drive",
       ],
-      githubLink: "https://github.com/IshanJawale/sattv-HMS",
+      githubLink: "https://github.com/Mihir-Nandi/Sattv",
       images: [
         "images/projects/Sattv/SattvDash.jpeg",
         "images/projects/Sattv/SattvList.jpeg",
@@ -84,27 +84,13 @@ const data = {
     },
     
     {
-      name: "Accident Detection and Alert System",
-      description:
-        "The Accident Detection System is a vehicle safety project designed to detect collisions using ESP, accelerometer, GPS, and GSM technologies. This system provides real-time alerts to emergency services and predefined contacts, enhancing road safety.",
-      technologies: ["C++", "ESP32 / Arduino", "GPS", "GSM", "Accelerometer"],
-      githubLink: "https://github.com/IshanJawale/accident-detection-system",
-    },
-    {
       name: "IOT Enabled Smart Irrigation System",
       description:
         "The Accident Detection System is a vehicle safety project designed to detect collisions using ESP, accelerometer, GPS, and GSM technologies. This system provides real-time alerts to emergency services and predefined contacts, enhancing road safety.",
       technologies: ["C++", "ESP32 / Arduino", "GPS", "GSM", "Accelerometer"],
-      githubLink: "https://github.com/IshanJawale/IOT-enabled-smart-irrigation-system",
+      githubLink: "https://github.com/Mihir-Nandi/Smart-Irrigation",
     },
-    {
-      name: "Bulb Tester",
-      description:
-        "The Bulb Testing Project is an Arduino-based system designed for efficient and user-friendly light bulb testing. This project incorporates a keypad and LCD display to provide an interactive interface, making bulb testing straightforward and accessible.",
-      technologies: ["C++", "ESP32 / Arduino", "GPS", "GSM", "Accelerometer"],
-      githubLink: "https://github.com/IshanJawale/bulb-tester",
-      website: "https://wokwi.com/projects/365885552643451905",
-    },
+    
   ],
   education: {
     college: {
@@ -139,30 +125,30 @@ const data = {
       name: "Microsoft Certified: Azure AI Fundamentals",
       organization: "Microsoft",
       year: "2023",
-      preview: "images/certifications/Microsoft-Certificate.pdf",
+      preview: "images/certifications/azure.pdf",
     },
     {
-      logo: "images/logos/microsoft.png",
+      logo: "images/logos/udemy.png",
       name: "Flutter and Dart - The Complete Guide",
       organization: "Udemy",
       year: "2025",
-      preview: "images/certifications/Microsoft-Certificate.pdf",
+      // preview: "images/certifications/Microsoft-Certificate.pdf",
+    },
+    {
+      logo: "images/logos/udemy.png",
+      name: "Full Stack Web Development With MERN STACK & GenAI 2025",
+      organization: "Udemy",
+      year: "2023",
+      // preview: "images/certifications/Microsoft-Certificate.pdf",
     },
     {
       logo: "images/logos/Matlab_Logo.png",
       name: "Matlab Onramp Course",
       organization: "Matlab",
       year: "2023",
-      preview: "images/certifications/MatLab_OnRamp_Certificate.pdf",
+      // preview: "images/certifications/MatLab_OnRamp_Certificate.pdf",
     },
-    {
-      logo: "images/logos/AICTE_Logo.png",
-      name: "Exposure to Smart Manufacturing, Machines Tools",
-      organization: "AICTE - Idea Lab",
-      year: "2023",
-      preview: "images/certifications/AICTE-Certificate.pdf",
-      rank: "B+",
-    },
+    
   ],
   courses: [
     {
@@ -193,7 +179,7 @@ const data = {
       platform: "Udemy",
       year: "2023",
       preview:
-        ".",
+        "https://www.udemy.com/course/fullstack-web-development-course-projects-base/?kw=mern&src=sac&couponCode=JUST4U02223",
     },
     {
       name: "Python Tutorial - Python Full Course for Beginners",
@@ -222,8 +208,8 @@ const data = {
       projectSummary:
         "Prototyped and Developed an AI-powered and IOT enabled Smart Irrigation System that optimizes water usage by automatically adjusting irrigation based on real-time data from soil, weather, and plant conditions.",
       repoLink:
-        "https://github.com/IshanJawale/IOT-enabled-smart-irrigation-system",
-      certificate: "images/competitions/SPIT-Certificate.pdf",
+        "https://github.com/Mihir-Nandi/Smart-Irrigation",
+      certificate: "images/competitions/SPIT.pdf",
     },
     {
       name: "Smart India Hackathon - Software Edition 2024",
@@ -232,7 +218,7 @@ const data = {
       achievement: "WINNER",
       projectSummary:
         "Designed an AI-driven image analysis for classroom monitoring and quality assessment in skill development training programs.",
-      certificate: "images/competitions/Campus-to-Corporate.pdf",
+      certificate: "images/competitions/sih.pdf",
     },
     {
       name: "Ideathon 2023 - Ideation Contest",
@@ -241,7 +227,7 @@ const data = {
       achievement: "Participant",
       projectSummary:
         "Proposed an innovative idea for a mobile app designed to assist individuals with disabilities by tracking the accessibility of public services such as transportation, restrooms, hotels, and restaurants. This innovative app would provide users with up-to-date information on whether these services are accessible, ensuring a more inclusive and convenient experience for everyone..",
-      certificate: "images/competitions/Ideathon.pdf",
+      certificate: ".",
     },
     {
       name: "AICTE Idea Lab: Project Competition",
@@ -250,7 +236,7 @@ const data = {
       achievement: "Participant",
       projectSummary:
         "Developed a line-following robot as part of my first-year project, serving as an introduction to IoT concepts by integrating sensors and microcontrollers to enable real-time path detection and automated navigation.",
-      certificate: "images/competitions/Idea-Lab-Event.pdf",
+      certificate: ".",
     },
   
   ],
